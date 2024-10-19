@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url(bg3.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  margin-left: 1px;
+  margin-top: 5%;
+  border-radius: 50%;
+}
+ul {
+  margin-left: 50%;
+}
+.navbar {
+  display: flex;
+  margin-top: 15px;
+  margin-right: 50px;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  cursor: pointer;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.name {
+  color: rgb(245, 138, 138);
+  font-weight: bold;
+}
+#search-icon {
+  margin-right: 5px;
+}
+
+.nav-icon {
+  margin-left: 10px;
+  padding: 20px;
+  size: 20px;
+}
+.details {
+  margin-right: 100px;
+  margin-top: 200px;
+  text-align: right;
+  font-size: 80px;
+  font-weight: bold;
+  color: rgb(230, 88, 154);
+}
+.main-text {
+  max-width: 700px;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: 100px;
+  margin-top: 20px;
+  text-indent: 30px;
+  color: #ddd;
+}
+.shoe-img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  margin-right: 100px;
+  margin-top: 20px;
+}
+.cart-btn {
+  margin-top: 10px;
+  padding: 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: rgb(197, 135, 244);
+  color: black;
+  font-size: 20px;
+  border: none;
+  outline: none;
+}
+.footer {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+  margin-top: 5%;
+  padding: 30px;
+}
+
+#fb-icon {
+  margin-left: 10px;
+  color: rgb(76, 76, 237);
+  cursor: pointer;
+}
+
+#whatsapp-icon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+#insta-icon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+.navlist {
+  margin-left: 50%;
+  font-size: 24px;
+  margin: 20px 0;
+  margin-left: auto;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input {
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 18px;
+  margin: 0 15px;
+  outline: none;
+  border: none;
+}
+.product-selector {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.footer div i {
+  margin-bottom: 40px;
+}
+
+.footer h2 {
+  margin-bottom: 10px;
+}
+
+.icon-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+}
